@@ -5,33 +5,39 @@
   name="BeatportPrestige.AnalysisModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <ownedCommentsInternal>
     <comment
-      Id="629a9339-361c-4904-b1da-8154537fcce4">
-      <body>System Configuration:
-- Enter Beatport Credentials
-- Enter YouTube Credentials
-- Specify Library
- - iTunes
- - Folder location
-
-Hold Bin functionality:
-- Cross Reference Hold Bin with Youtube
-- Cross Reference Hold Bin with Current Library
-- Remove item from Hold Bin
-
-Search:
-- View "My Beatport Latest Tracks"
- - Cross reference results with current library
-
-- Cross Reference Search Results with Current Library
-
-</body>
-    </comment>
-    <comment
       Id="0ba4707e-ff7f-4a67-933a-02f3d4b3a962">
       <body>System Constraints:
 - Web based solution
 - Beatport API access
 - YouTube API access
+</body>
+    </comment>
+    <comment
+      Id="88e3ce6b-87bd-4fed-b8c2-b949e7f0be1c">
+      <body>System Configuration:
+- Enter Beatport Credentials
+- Enter YouTube Credentials
+- Enter Soundcloud Credentials?
+- Specify Library 
+	- iTunes 
+	- Folder location
+
+Hold Bin functionality:
+- Cross Reference Hold Bin with Youtube
+	- Create Playlist based on hold bin
+	- Playback functionality (pause/next/back/play)
+	- Lookup alternative YouTube videos
+- Cross Reference Hold Bin with Current Library
+	- Identify items already purchased
+- Remove item from Hold Bin
+- Add to Shopping Cart
+
+Search:
+- Search Results
+- View "My Beatport Latest Tracks"
+- Cross reference all results with current library
+
+
 </body>
     </comment>
   </ownedCommentsInternal>

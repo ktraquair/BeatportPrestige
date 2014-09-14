@@ -1,28 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="320cb150-83d5-4d8f-bafc-ccfa08f6889a" name="Brainstorm" linkedPackageId="2563e51b-bce6-47d4-b736-1cd24068efaf" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <ownedCommentsInternal>
-    <comment Id="26d130f5-ecb2-4b8d-b0fd-7e4461851716">
-      <elementDefinition Id="629a9339-361c-4904-b1da-8154537fcce4" />
-      <body>System Configuration:
-- Enter Beatport Credentials
-- Enter YouTube Credentials
-- Specify Library
- - iTunes
- - Folder location
-
-Hold Bin functionality:
-- Cross Reference Hold Bin with Youtube
-- Cross Reference Hold Bin with Current Library
-- Remove item from Hold Bin
-
-Search:
-- View "My Beatport Latest Tracks"
- - Cross reference results with current library
-
-- Cross Reference Search Results with Current Library
-
-</body>
-    </comment>
     <comment Id="87466507-538c-4ea6-9d69-4087b103fa3a">
       <elementDefinition Id="0ba4707e-ff7f-4a67-933a-02f3d4b3a962" />
       <body>System Constraints:
@@ -31,21 +9,35 @@ Search:
 - YouTube API access
 </body>
     </comment>
+    <comment Id="02e85533-c477-4a1c-8799-693a7307cd73">
+      <elementDefinition Id="88e3ce6b-87bd-4fed-b8c2-b949e7f0be1c" />
+      <body>System Configuration:
+- Enter Beatport Credentials
+- Enter YouTube Credentials
+- Enter Soundcloud Credentials?
+- Specify Library 
+	- iTunes 
+	- Folder location
+
+Hold Bin functionality:
+- Cross Reference Hold Bin with Youtube
+	- Create Playlist based on hold bin
+	- Playback functionality (pause/next/back/play)
+	- Lookup alternative YouTube videos
+- Cross Reference Hold Bin with Current Library
+	- Identify items already purchased
+- Remove item from Hold Bin
+- Add to Shopping Cart
+
+Search:
+- Search Results
+- View "My Beatport Latest Tracks"
+- Cross reference all results with current library
+
+
+</body>
+    </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="dcf2ac7c-8fc2-441a-ac5d-d0b8c1085c2c">
-      <profileInstance Id="95bcb2d4-2566-462f-b780-961a2c8d2b87" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="e7652878-d9b5-4f22-9d7b-4035394ef624">
-      <profileInstance Id="742a3837-a0d3-406a-ba7f-0c20b355ca06" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <subsystem Id="8ba0b718-d8fa-436e-856a-81a15ff12801" name="Beatport Prestige" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -60,5 +52,19 @@ Search:
   </packagedElements>
   <package Id="2563e51b-bce6-47d4-b736-1cd24068efaf" name="BeatportPrestige.AnalysisModel">
     <elementDefinition Id="aa9520cf-8385-49c4-9932-08cb4e280024" />
+    <profileInstances>
+      <packageHasProfileInstances Id="dcf2ac7c-8fc2-441a-ac5d-d0b8c1085c2c">
+        <profileInstance Id="95bcb2d4-2566-462f-b780-961a2c8d2b87" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e7652878-d9b5-4f22-9d7b-4035394ef624">
+        <profileInstance Id="742a3837-a0d3-406a-ba7f-0c20b355ca06" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>
