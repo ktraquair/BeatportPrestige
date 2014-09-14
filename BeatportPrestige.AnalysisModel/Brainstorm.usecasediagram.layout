@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Brainstorm">
+  <useCaseModelRootMoniker Id="320cb150-83d5-4d8f-bafc-ccfa08f6889a" />
+  <nestedChildShapes>
+    <actorShape Id="7def2c0e-1384-4561-9ff6-b7f5a7bb3db4" absoluteBounds="1.25, 2.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="2050954d-4abe-4839-b21f-61d5bac71ed5" LastKnownName="User" />
+      <relativeChildShapes />
+    </actorShape>
+    <commentShape Id="b3289501-820a-496b-a54c-ab5d542b49cf" absoluteBounds="2.5, 1.75, 2.75, 2.875" customColor="251, 247, 200">
+      <commentMoniker Id="26d130f5-ecb2-4b8d-b0fd-7e4461851716" />
+      <relativeChildShapes />
+    </commentShape>
+    <commentShape Id="4148d563-ab3b-4ca1-bc3e-caa07339d03d" absoluteBounds="5.75, 0.75, 3.5, 1" customColor="251, 247, 200">
+      <commentMoniker Id="87466507-538c-4ea6-9d69-4087b103fa3a" />
+      <relativeChildShapes />
+    </commentShape>
+    <SubsystemShape Id="80be0a18-471f-4c9c-9499-6279b113864e" absoluteBounds="5.75, 2.25, 3, 2.5" customColor="DarkGray">
+      <subsystemMoniker Id="8ba0b718-d8fa-436e-856a-81a15ff12801" LastKnownName="Beatport Prestige" />
+    </SubsystemShape>
+  </nestedChildShapes>
+</useCaseDiagram>

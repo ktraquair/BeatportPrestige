@@ -1,0 +1,25 @@
+Create an app that takes a beatport shopping card/hold bin and cross refernces Youtube to find the song.  Allow the user to choose to keep the song or delete it.
+
+
+additinoally it could look over current library to see if file already exists
+
+take user credentials and store it
+
+cross references search results to display which is already owned, or event suppress those results
+
+
+Names
+-------
+Beatport Plus
+Beatport Advance
+Beatport+
+Beatport Aux
+Beatport Beyond
+Beatport Essential
+Beatport Element
+Beatport Prime
+Beatport Mix
+Beatport Blend
+Beatport Advantage
+Beatport Edge
+Beatport Prestige
